@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SUALEHDEVOPPROJECT/static/css/main.e6c13ad2.css",
+    "main.js": "/SUALEHDEVOPPROJECT/static/js/main.16dd7155.js",
+    "static/js/453.0282e564.chunk.js": "/SUALEHDEVOPPROJECT/static/js/453.0282e564.chunk.js",
+    "index.html": "/SUALEHDEVOPPROJECT/index.html",
+    "main.e6c13ad2.css.map": "/SUALEHDEVOPPROJECT/static/css/main.e6c13ad2.css.map",
+    "main.16dd7155.js.map": "/SUALEHDEVOPPROJECT/static/js/main.16dd7155.js.map",
+    "453.0282e564.chunk.js.map": "/SUALEHDEVOPPROJECT/static/js/453.0282e564.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.16dd7155.js"
+  ]
+}
