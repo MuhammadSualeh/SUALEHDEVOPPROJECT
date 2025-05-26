@@ -3,7 +3,7 @@ name: Deploy React App to GitHub Pages
 on:
   push:
     branches:
-      - master   # Apna branch name confirm kar lo, agar 'master' hai to change karo
+      - master   # Apne repo ka main branch name (agar 'master' hai to usse badal dena)
 
 jobs:
   build:
@@ -26,6 +26,6 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.PERSONAL_ACCESS }}  # Apne secret token ka naam yahan daalna
         publish_dir: ./build
         publish_branch: gh-pages
